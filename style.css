@@ -52,7 +52,7 @@ nav {
   display: flex;
   flex-direction: row;
   position: absolute;
-  margin-left: 45%;
+  margin-left: 55%;
 }
 .btn {
   display: inline-block;
@@ -180,7 +180,7 @@ nav {
 }
 .container2 {
   background-color: #fafafa;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -264,7 +264,7 @@ nav {
 
 /*-----------form----------*/
 .container1 {
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
