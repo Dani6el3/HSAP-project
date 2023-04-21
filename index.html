@@ -11,11 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="hsap.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="" />
   </head>
   <body>
     <section class="header">
@@ -30,11 +31,11 @@
 
               <ul>
                 <div class="bbn">
-                  <a href="" class="btn">Apply Now</a>
+                  <a href="#section-4" class="btn">Apply Now</a>
                 </div>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">COURSES</a></li>
+                <li><a href="#section-1">HOME</a></li>
+                <li><a href="#section-2">ABOUT</a></li>
+                <li><a href="#section-3">COURSES</a></li>
               </ul>
             </div>
           </nav>
@@ -48,10 +49,15 @@
             <div class="row">
               <div class="col-2">
                 <div class="edit">
-                  <h3>Harvesters Skill Acquisition Program</h3>
+                  <h3 id="section-1">Harvesters Skill Acquisition Program</h3>
                   <h1>Learn a skill and earn more</h1>
-                  <a href="" class="hero-btn">Learn more</a>
-                  <a href="" class="hero-btn2">Apply Now</a>
+                  <a
+                    href="https://www.instagram.com/hsap.ng/"
+                    target="_blank"
+                    class="hero-btn"
+                    >Learn more</a
+                  >
+                  <a href="#section-4" class="hero-btn2">Apply Now</a>
                 </div>
               </div>
               <div class="col-2">
@@ -64,16 +70,16 @@
         <div class="container">
           <div class="row">
             <div class="col-2">
-              <h2>About HSAP</h2>
+              <h2 id="section-2">About HSAP</h2>
               <p>
                 Harvesters Skill Acquisition Program (HSAP) is an initiative of
-                Harvesters International Christian Center (HICC). It was
-                launched in July 2016 as a response of the unemployment probelm
-                prevalent amongst the Nigerian youth. Our goal is to empower
-                thye young NIgeria population with easy to start, viable and
-                scalable business skills so they can fend for themselves, craete
-                enterprise that can employ others and ultimately contribute to
-                the development of the NIgerian economy.
+                Harvesters International Christian Centre (HICC). It was
+                launched in July 2016 as a response to the unemployment problem
+                prevalent amongst the Nigerian youth. Our goal is to empower the
+                young Nigeria population with easy to start, viable and scalable
+                business skills so they can fend for themselves, create
+                enterprises that can employ others and ultimately contribute to
+                the development of the Nigerian economy.
               </p>
             </div>
             <div class="col-2">
@@ -86,12 +92,12 @@
     <!--------------------courses----------->
     <div class="courses">
       <div class="container2">
-        <h2 class="title">Courses</h2>
+        <h2 class="title" id="section-3">Courses</h2>
         <div class="row1">
           <div class="col-3">
-            <img src="pic/digmark.jpg" />
+            <img src="pic/front end.jpg" />
             <div class="layer">
-              <h3>Digital Marketing</h3>
+              <h3>Front-end Web Development</h3>
             </div>
           </div>
           <div class="col-3">
@@ -101,7 +107,7 @@
             </div>
           </div>
           <div class="col-3">
-            <img src="pic/photography.jpg" />
+            <img src="pic/contentcreation.jpg" />
             <div class="layer">
               <h3>Mobile Photography</h3>
             </div>
@@ -109,7 +115,7 @@
         </div>
         <div class="row1">
           <div class="col-3">
-            <img src="pic/pastries.jpg" />
+            <img src="pic/pastry.jpg" />
             <div class="layer">
               <h3>Asian Cusine and Pastry</h3>
             </div>
@@ -121,7 +127,7 @@
             </div>
           </div>
           <div class="col-3">
-            <img src="pic/wigmaking.jpg" />
+            <img src="pic/wig making.jpg" />
             <div class="layer">
               <h3>Wig Making</h3>
             </div>
@@ -135,7 +141,7 @@
             </div>
           </div>
           <div class="col-3">
-            <img src="pic/mixolgy.jpg" />
+            <img src="pic/mixology.jpg" />
             <div class="layer">
               <h3>Mixology</h3>
             </div>
@@ -155,9 +161,9 @@
             </div>
           </div>
           <div class="col-3">
-            <img src="pic/frontend.jpg" />
+            <img src="pic/digmark.jpg" />
             <div class="layer">
-              <h3>Front-end Web Development</h3>
+              <h3>Digital Marketing</h3>
             </div>
           </div>
           <div class="col-3">
@@ -171,8 +177,11 @@
       <!-----------apply now---------->
 
       <div class="container1">
-        <h2 class="title">Apply Now</h2>
-        <form>
+        <h2 class="title" id="section-4">Apply Now</h2>
+        <form
+          action="https://formsubmit.co/ukatadan502@gmail.com"
+          method="POST"
+        >
           <div class="form-group">
             <div class="input-box">
               <label for="name" class="leb">Name</label>

@@ -231,6 +231,7 @@ nav {
 .col-3:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+
 .layer {
   background: transparent;
   height: 100%;
@@ -326,7 +327,7 @@ nav .fa {
   display: none;
 }
 /*------------------media query for menu -----------*/
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .edit h1 {
     font-size: 20px;
   }
