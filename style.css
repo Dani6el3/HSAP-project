@@ -242,9 +242,9 @@ nav {
   left: 0;
   transition: 0.5;
 }
-/*.layer1:hover {
+.layer1:hover {
   background: rgba(97, 165, 242, 0.872);
-}*/
+}
 .layer1 h3 {
   width: 100%;
   font-weight: 600;
