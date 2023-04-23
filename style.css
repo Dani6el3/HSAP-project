@@ -156,6 +156,7 @@ nav {
   line-height: 24px;
   letter-spacing: -2;
 }
+
 .col-2 p {
   font-weight: 400;
   font-size: 16px;
@@ -232,7 +233,7 @@ nav {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-.layer {
+.layer1 {
   background: transparent;
   height: 100%;
   width: 100%;
@@ -241,10 +242,10 @@ nav {
   left: 0;
   transition: 0.5;
 }
-.layer:hover {
+/*.layer1:hover {
   background: rgba(97, 165, 242, 0.872);
-}
-.layer h3 {
+}*/
+.layer1 h3 {
   width: 100%;
   font-weight: 600;
   color: #000000;
@@ -257,7 +258,7 @@ nav {
   opacity: 0;
   transition: 0.5s;
 }
-.layer:hover h3 {
+.layer1:hover h3 {
   top: 30%;
   opacity: 1;
 }
@@ -328,11 +329,23 @@ nav .fa {
 }
 /*------------------media query for menu -----------*/
 @media (max-width: 750px) {
-  .edit h1 {
-    font-size: 20px;
+  .col h1 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    width: 367px;
+    height: 96px;
+    left: 284px;
+    top: 149px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
   }
-  p {
-    font-size: 20px;
+  .pp p {
+    font-size: 10px;
+    justify-content: center;
+    text-align: justify;
+    width: 80%;
+    height: 10%;
   }
   .nav-links ul li {
     display: block;
@@ -343,7 +356,7 @@ nav .fa {
     height: 100vh;
     width: 200px;
     top: 0;
-    right: -200px;
+    right: -20px;
     text-align: left;
     z-index: 2;
     transition: 1s;
@@ -352,12 +365,13 @@ nav .fa {
     display: flex;
     position: flex;
     flex-direction: row;
+    height: 100%;
     right: 70px;
-    top: 30%;
+    top: 40%;
   }
   .btn {
     width: 100%;
-    height: 20px;
+    height: 35px;
     text-align: center;
     padding-top: 5px;
     display: block;
@@ -371,6 +385,7 @@ nav .fa {
   }
   .menu {
     display: block;
+    right: 0;
   }
   .nav-links ul {
     padding: 30px;
@@ -379,74 +394,9 @@ nav .fa {
 
 @media (max-width: 750px) {
   .col-2 h1 {
-    font-size: 32px;
-  }
-
-  .col-2 h2 {
-    font-size: 24px;
-  }
-  .col-2 p {
-    font-size: 16px;
-  }
-  .row,
-  .row1 {
-    flex-direction: column;
-    display: block;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .edit h1 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 20px;
-  }
-  .nav-links ul li {
-    display: block;
-  }
-  .nav-links {
-    position: absolute;
-    background: #6873f2;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
+    font-size: 18px;
+    left: 5px;
     text-align: left;
-    z-index: 2;
-    transition: 1s;
-  }
-  .bbn {
-    display: flex;
-    position: flex;
-    flex-direction: row;
-    right: 70px;
-    top: 30%;
-  }
-  .btn {
-    width: 100%;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    display: block;
-  }
-  nav .fa {
-    display: block;
-    color: #fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  .menu {
-    display: block;
-  }
-  .nav-links ul {
-    padding: 30px;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-  .col-2 h1 {
-    font-size: 32px;
   }
 
   .col-2 h2 {
@@ -460,71 +410,12 @@ nav .fa {
     flex-direction: column;
     display: block;
   }
-}
-@media only screen and (max-width: 380px) {
-  .edit h1 {
-    font-size: 20px;
-  }
-  p {
-    font-size: 20px;
-  }
-  .nav-links ul li {
+  .container1 {
     display: block;
+    align-items: center;
   }
-  .nav-links {
-    position: absolute;
-    background: #6873f2;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
-  }
-  .bbn {
-    display: flex;
-    position: flex;
-    flex-direction: row;
-    right: 70px;
-    top: 30%;
-  }
-  .btn {
-    width: 100%;
-    height: 20px;
-    text-align: center;
-    padding-top: 5px;
-    display: block;
-  }
-  nav .fa {
-    display: block;
-    color: #fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  .menu {
-    display: block;
-  }
-  .nav-links ul {
-    padding: 30px;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  .col-2 h1 {
-    font-size: 32px;
-  }
-
-  .col-2 h2 {
-    font-size: 24px;
-  }
-  .col-2 p {
-    font-size: 16px;
-  }
-  .row,
-  .row1 {
-    flex-direction: column;
-    display: block;
+  button {
+    align-items: center;
+    right: 30px;
   }
 }
